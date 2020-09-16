@@ -1,4 +1,4 @@
-#particles-js {
+#header-wrapper {
   background: $main;
   display: flex;
   vertical-align: bottom;
@@ -6,9 +6,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  .particles-js-canvas-el {
-    height: 100vh !important;
-  }
+
+  background-image: url("https://images.unsplash.com/photo-1600124736160-06eaac649bbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
