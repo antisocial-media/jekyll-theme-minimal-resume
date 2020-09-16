@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions"
   },
-  "author": "Mauricio Urraco <mauriurraco@gmail.com>",
+  "author": "Sergej Schefer",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.18.6",
