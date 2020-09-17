@@ -27,3 +27,35 @@
       <a class="project-link" href="#">Check it out</a>
     </div>
   </div>
+
+  <div id="projects-strips">
+      {% assign sorted_posts = site.posts | sort:"title" %}
+      {% for post in sorted_posts %}
+
+      {% assign remainder = forloop.index0 | modulo: 2 %}
+      {% if remainder == 0 %}
+      <h1>RIGHT</h1>
+      {% else %}
+      <h1>LEFT</h1>
+      {% endif %}
+
+      <!-- {% if forloop.last == true %}
+      <div class="project" style="margin-bottom: 0px;">
+      {% else %}
+      <div class="project">
+      {% endif %} -->
+      <div class="project"></div>
+
+          <div class="project-strip center-horizontal" onclick="setActiveStripe(this)" style="background-image : url('/assets/images/{{ post.thumbnail }}');">
+              <div class="inner-strip"></div>
+          </div>
+          <div class="information">
+              <h1>{{ post.title }}</h1>
+              <div class="description">
+                  {{ post.content }}
+              </div>
+          </div>
+      </div>    
+      {% endfor %}
+  </div>
+</div>
