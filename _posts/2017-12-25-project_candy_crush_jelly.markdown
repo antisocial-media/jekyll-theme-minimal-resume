@@ -6,7 +6,7 @@ categories: projects
 ---
 Game feature development like blockers, game modes, meta game level features. <br>
 Maintaining live game, performing updates and fixing bugs. <br>
-<!-- <br>
+<br>
 <br>
 Januar 2018 – April 2019<br>
-<strong>Technologies:</strong> C++ -->
+<strong>Technologies:</strong> C++
