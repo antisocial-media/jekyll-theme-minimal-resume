@@ -1,6 +1,6 @@
 ---
 title: "Burger King - Grilled Dogs"
-thumbnail: "bk_hot_dog.png" 
+thumbnail: "bk.png" 
 date:   2017-12-25 19:41:44 +0100
 categories: projects
 ---
@@ -8,9 +8,13 @@ This is a game I developed at Gamewheel for Burger King Germany, when they decid
 <br>
 <br>
 If you play the game on desktop you can control the player with the arrow keys on the keyboard or alternatively with the mouse. On mobile phones the player is controlled with the gyroscope by tilting your phone in the desired direction.
-<br>
-<br>
-<strong>Technologies:</strong> JavaScript, ImpactJs, Node, Gulp, Gamewheel 2D Engine -->
+
+<strong>Technologies:</strong>
+<ul>
+    <li>JavaScript</li>
+    <li>Node</li>
+    <li>Gulp</li>
+</ul>
 
 <p>
 <br>

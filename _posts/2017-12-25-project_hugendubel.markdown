@@ -1,14 +1,18 @@
 ---
 title: "Hugendubel - Bookbuster"
-thumbnail: "hugendubel.png" 
+thumbnail: "hugendubel-main.png" 
 date:   2017-12-25 19:41:44 +0100
 categories: projects
+tech: "JavaScript, Node, Gulp"
 ---
 This is a campaign I have been working on at Gamewheel for Hugendubel. It consists of three games, a quiz game, a memory game and a crosswords game, which are linked together by a common highscore list. 
 
-<br>
-<br>
-<strong>Technologies:</strong> JavaScript, ImpactJs, Node, Gulp, Gamewheel 2D Engine -->
+<strong>Technologies:</strong>
+<ul>
+    <li>JavaScript</li>
+    <li>Node</li>
+    <li>Gulp</li>
+</ul>
 
 <p>
 <br>

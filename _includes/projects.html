@@ -12,7 +12,7 @@
     <div class="images-left">
   {% endif %}
     <!-- <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" /> -->
-    <img alt="mountains" src="{{ 'https://static.giga.de/wp-content/uploads/2015/04/candy-crush-saga.jpg' | prepend: site.baseurl }}" />
+    <img src="{{ site.baseurl }}/assets/img/{{ post.thumbnail }}" />
   </div>
   {% if remainder == 0 %}
   <div class="contents">
@@ -20,9 +20,6 @@
   <div class="contents-right">
   {% endif %}      
     <h3> {{post.title}} </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
     <p>{{post.content}}</p>
     <a class="project-link" href="#">Check it out</a>
   </div>
